@@ -1,0 +1,2 @@
+# Sitefinity Component Framework API documentation
+This repository is used to hold information about the API that the Sitefinity Component Framework project is using such as classes, interfaces, constants etc.
