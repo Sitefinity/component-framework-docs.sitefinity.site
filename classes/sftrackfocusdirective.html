@@ -77,7 +77,7 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<a href="sfrxbasedirective.html" class="tsd-signature-type">SfRxBaseDirective</a>
+						<a href="sfrxbase.html" class="tsd-signature-type">SfRxBase</a>
 						<ul class="tsd-hierarchy">
 							<li>
 								<span class="target">SfTrackFocusDirective</span>
@@ -140,10 +140,10 @@
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="sftrackfocusdirective.html#onelementclick" class="tsd-kind-icon">on<wbr>Element<wbr>Click</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="sftrackfocusdirective.html#onelementmousedown" class="tsd-kind-icon">on<wbr>Element<wbr>Mouse<wbr>Down</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="sftrackfocusdirective.html#onelementmouseup" class="tsd-kind-icon">on<wbr>Element<wbr>Mouse<wbr>Up</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited tsd-is-protected"><a href="sftrackfocusdirective.html#registersubscription" class="tsd-kind-icon">register<wbr>Subscription</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="sftrackfocusdirective.html#registersubscription" class="tsd-kind-icon">register<wbr>Subscription</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="sftrackfocusdirective.html#removeeventlisteners" class="tsd-kind-icon">remove<wbr>Event<wbr>Listeners</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="sftrackfocusdirective.html#removesubsriptions" class="tsd-kind-icon">remove<wbr>Subsriptions</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="sftrackfocusdirective.html#resetelementclickflags" class="tsd-kind-icon">reset<wbr>Element<wbr>Click<wbr>Flags</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="sftrackfocusdirective.html#unsubscribe" class="tsd-kind-icon">unsubscribe</a></li>
 							</ul>
 						</section>
 					</div>
@@ -517,7 +517,7 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides <a href="sfrxbasedirective.html">SfRxBaseDirective</a>.<a href="sfrxbasedirective.html#ngondestroy">ngOnDestroy</a></p>
+								<p>Overrides <a href="sfrxbase.html">SfRxBase</a>.<a href="sfrxbase.html#ngondestroy">ngOnDestroy</a></p>
 								<ul>
 									<li>Defined in common/directives/track-focus.directive.ts:136</li>
 								</ul>
@@ -688,19 +688,18 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited tsd-is-protected">
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
 					<a name="registersubscription" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> register<wbr>Subscription</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited tsd-is-protected">
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
 						<li class="tsd-signature tsd-kind-icon">register<wbr>Subscription<span class="tsd-signature-symbol">(</span>sub<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Subscription</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from <a href="sfrxbasedirective.html">SfRxBaseDirective</a>.<a href="sfrxbasedirective.html#registersubscription">registerSubscription</a></p>
-								<p>Overrides <a href="sfrxbase.html">SfRxBase</a>.<a href="sfrxbase.html#registersubscription">registerSubscription</a></p>
+								<p>Inherited from <a href="sfrxbase.html">SfRxBase</a>.<a href="sfrxbase.html#registersubscription">registerSubscription</a></p>
 								<ul>
-									<li>Defined in utilities/rx-base.directive.ts:8</li>
+									<li>Defined in utilities/rx-base.ts:7</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -735,6 +734,24 @@
 						</li>
 					</ul>
 				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="removesubsriptions" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> remove<wbr>Subsriptions</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">remove<wbr>Subsriptions<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="sfrxbase.html">SfRxBase</a>.<a href="sfrxbase.html#removesubsriptions">removeSubsriptions</a></p>
+								<ul>
+									<li>Defined in utilities/rx-base.ts:11</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
 					<a name="resetelementclickflags" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagPrivate">Private</span> reset<wbr>Element<wbr>Click<wbr>Flags</h3>
@@ -753,24 +770,6 @@
 									<p>Resets mouseDown and mouseUp flags</p>
 								</div>
 							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
-					<a name="unsubscribe" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> unsubscribe</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
-						<li class="tsd-signature tsd-kind-icon">unsubscribe<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<p>Inherited from <a href="sfrxbase.html">SfRxBase</a>.<a href="sfrxbase.html#unsubscribe">unsubscribe</a></p>
-								<ul>
-									<li>Defined in utilities/rx-base.ts:10</li>
-								</ul>
-							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -879,17 +878,17 @@
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="sftrackfocusdirective.html#onelementmouseup" class="tsd-kind-icon">on<wbr>Element<wbr>Mouse<wbr>Up</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited tsd-is-protected">
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
 								<a href="sftrackfocusdirective.html#registersubscription" class="tsd-kind-icon">register<wbr>Subscription</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
 								<a href="sftrackfocusdirective.html#removeeventlisteners" class="tsd-kind-icon">remove<wbr>Event<wbr>Listeners</a>
 							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="sftrackfocusdirective.html#removesubsriptions" class="tsd-kind-icon">remove<wbr>Subsriptions</a>
+							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
 								<a href="sftrackfocusdirective.html#resetelementclickflags" class="tsd-kind-icon">reset<wbr>Element<wbr>Click<wbr>Flags</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
-								<a href="sftrackfocusdirective.html#unsubscribe" class="tsd-kind-icon">unsubscribe</a>
 							</li>
 						</ul>
 					</li>
