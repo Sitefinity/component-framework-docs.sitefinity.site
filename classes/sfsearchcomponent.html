@@ -93,8 +93,11 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfsearchcomponent.html#arialabel" class="tsd-kind-icon">aria<wbr>Label</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfsearchcomponent.html#arialabelledby" class="tsd-kind-icon">aria<wbr>Labelledby</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfsearchcomponent.html#clearable" class="tsd-kind-icon">clearable</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfsearchcomponent.html#emitafterinputnumber" class="tsd-kind-icon">emit<wbr>After<wbr>Input<wbr>Number</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="sfsearchcomponent.html#inputelement" class="tsd-kind-icon">input<wbr>Element</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfsearchcomponent.html#inputemitcount" class="tsd-kind-icon">input<wbr>Emit<wbr>Count</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfsearchcomponent.html#inputlook" class="tsd-kind-icon">input<wbr>Look</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfsearchcomponent.html#onclear" class="tsd-kind-icon">on<wbr>Clear</a></li>
@@ -112,6 +115,7 @@
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="sfsearchcomponent.html#clear" class="tsd-kind-icon">clear</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="sfsearchcomponent.html#focus" class="tsd-kind-icon">focus</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="sfsearchcomponent.html#generateinputlook" class="tsd-kind-icon">generate<wbr>Input<wbr>Look</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="sfsearchcomponent.html#generatewrapperlook" class="tsd-kind-icon">generate<wbr>Wrapper<wbr>Look</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="sfsearchcomponent.html#ngoninit" class="tsd-kind-icon">ng<wbr>OnInit</a></li>
@@ -124,12 +128,42 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="arialabel" class="tsd-anchor"></a>
+					<h3>aria<wbr>Label</h3>
+					<div class="tsd-signature tsd-kind-icon">aria<wbr>Label<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in fields/search/search.component.ts:67</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Sets the aria-label attribute of the input</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="arialabelledby" class="tsd-anchor"></a>
+					<h3>aria<wbr>Labelledby</h3>
+					<div class="tsd-signature tsd-kind-icon">aria<wbr>Labelledby<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in fields/search/search.component.ts:72</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Sets the aria-labelledby attribute of the input</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="clearable" class="tsd-anchor"></a>
 					<h3>clearable</h3>
 					<div class="tsd-signature tsd-kind-icon">clearable<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/search/search.component.ts:21</li>
+							<li>Defined in fields/search/search.component.ts:22</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -144,12 +178,27 @@
 					<div class="tsd-signature tsd-kind-icon">emit<wbr>After<wbr>Input<wbr>Number<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;0</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/search/search.component.ts:46</li>
+							<li>Defined in fields/search/search.component.ts:47</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>The number of symbols after which to emit that the search value is changed (default: 0)</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="inputelement" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> input<wbr>Element</h3>
+					<div class="tsd-signature tsd-kind-icon">input<wbr>Element<span class="tsd-signature-symbol">:</span> <a href="sfinputcomponent.html" class="tsd-signature-type">SfInputComponent</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in fields/search/search.component.ts:77</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Gets the input element</p>
 						</div>
 					</div>
 				</section>
@@ -159,7 +208,7 @@
 					<div class="tsd-signature tsd-kind-icon">input<wbr>Emit<wbr>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;0</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/search/search.component.ts:76</li>
+							<li>Defined in fields/search/search.component.ts:92</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -174,7 +223,7 @@
 					<div class="tsd-signature tsd-kind-icon">input<wbr>Look<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/search/search.component.ts:41</li>
+							<li>Defined in fields/search/search.component.ts:42</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -189,7 +238,7 @@
 					<div class="tsd-signature tsd-kind-icon">on<wbr>Clear<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">EventEmitter</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;new EventEmitter()</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/search/search.component.ts:61</li>
+							<li>Defined in fields/search/search.component.ts:62</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -204,7 +253,7 @@
 					<div class="tsd-signature tsd-kind-icon">placeholder<wbr>Text<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/search/search.component.ts:36</li>
+							<li>Defined in fields/search/search.component.ts:37</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -219,7 +268,7 @@
 					<div class="tsd-signature tsd-kind-icon">search<wbr>Input<wbr>Look<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/search/search.component.ts:66</li>
+							<li>Defined in fields/search/search.component.ts:82</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -234,7 +283,7 @@
 					<div class="tsd-signature tsd-kind-icon">search<wbr>Value<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/search/search.component.ts:16</li>
+							<li>Defined in fields/search/search.component.ts:17</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -249,7 +298,7 @@
 					<div class="tsd-signature tsd-kind-icon">search<wbr>Value<wbr>Change<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">EventEmitter</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;new EventEmitter&lt;string&gt;()</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/search/search.component.ts:56</li>
+							<li>Defined in fields/search/search.component.ts:57</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -264,7 +313,7 @@
 					<div class="tsd-signature tsd-kind-icon">search<wbr>Wrapper<wbr>Look<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;sf-button-group -search&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/search/search.component.ts:71</li>
+							<li>Defined in fields/search/search.component.ts:87</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -279,7 +328,7 @@
 					<div class="tsd-signature tsd-kind-icon">show<wbr>Button<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/search/search.component.ts:31</li>
+							<li>Defined in fields/search/search.component.ts:32</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -294,7 +343,7 @@
 					<div class="tsd-signature tsd-kind-icon">show<wbr>Icon<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/search/search.component.ts:26</li>
+							<li>Defined in fields/search/search.component.ts:27</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -309,7 +358,7 @@
 					<div class="tsd-signature tsd-kind-icon">wrapper<wbr>Look<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/search/search.component.ts:51</li>
+							<li>Defined in fields/search/search.component.ts:52</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -331,7 +380,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in fields/search/search.component.ts:127</li>
+									<li>Defined in fields/search/search.component.ts:150</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -350,6 +399,28 @@
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="focus" class="tsd-anchor"></a>
+					<h3>focus</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">focus<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in fields/search/search.component.ts:143</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p> Focuses the input</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
 					<a name="generateinputlook" class="tsd-anchor"></a>
 					<h3>generate<wbr>Input<wbr>Look</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -359,7 +430,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in fields/search/search.component.ts:92</li>
+									<li>Defined in fields/search/search.component.ts:108</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -381,7 +452,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in fields/search/search.component.ts:105</li>
+									<li>Defined in fields/search/search.component.ts:121</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -403,7 +474,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in fields/search/search.component.ts:78</li>
+									<li>Defined in fields/search/search.component.ts:94</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -420,7 +491,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in fields/search/search.component.ts:114</li>
+									<li>Defined in fields/search/search.component.ts:130</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -450,10 +521,19 @@
 						<a href="sfsearchcomponent.html" class="tsd-kind-icon">Sf<wbr>Search<wbr>Component</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="sfsearchcomponent.html#arialabel" class="tsd-kind-icon">aria<wbr>Label</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="sfsearchcomponent.html#arialabelledby" class="tsd-kind-icon">aria<wbr>Labelledby</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="sfsearchcomponent.html#clearable" class="tsd-kind-icon">clearable</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="sfsearchcomponent.html#emitafterinputnumber" class="tsd-kind-icon">emit<wbr>After<wbr>Input<wbr>Number</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="sfsearchcomponent.html#inputelement" class="tsd-kind-icon">input<wbr>Element</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="sfsearchcomponent.html#inputemitcount" class="tsd-kind-icon">input<wbr>Emit<wbr>Count</a>
@@ -490,6 +570,9 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="sfsearchcomponent.html#clear" class="tsd-kind-icon">clear</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="sfsearchcomponent.html#focus" class="tsd-kind-icon">focus</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="sfsearchcomponent.html#generateinputlook" class="tsd-kind-icon">generate<wbr>Input<wbr>Look</a>
