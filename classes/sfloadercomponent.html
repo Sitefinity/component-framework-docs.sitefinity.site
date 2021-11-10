@@ -67,8 +67,13 @@
 			<section class="tsd-panel tsd-comment">
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>The loader component, which displays different types of loading indicators
-						The selector for this component is sf-loader</p>
+						<a href="#api-reference-for-sfloadercomponent" id="api-reference-for-sfloadercomponent" style="color: inherit; text-decoration: none;">
+							<h2>API reference for SfLoaderComponent</h2>
+						</a>
+						<p><code>import {SfLoaderModule} from &quot;@progress/sitefinity-component-framework&quot;;</code></p>
+						<hr>
+						<p><strong>selector</strong>: <code>sf-loader</code>
+						<strong>description</strong>: Displays different types of loading indicators</p>
 					</div>
 				</div>
 			</section>
@@ -98,6 +103,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfloadercomponent.html#iterations" class="tsd-kind-icon">iterations</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfloadercomponent.html#look" class="tsd-kind-icon">look</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfloadercomponent.html#rectclasses" class="tsd-kind-icon">rect<wbr>Classes</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfloadercomponent.html#width" class="tsd-kind-icon">width</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
@@ -118,7 +124,7 @@
 					<div class="tsd-signature tsd-kind-icon">count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/loader/loader.component.ts:31</li>
+							<li>Defined in fields/loader/loader.component.ts:34</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -133,7 +139,7 @@
 					<div class="tsd-signature tsd-kind-icon">height<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/loader/loader.component.ts:36</li>
+							<li>Defined in fields/loader/loader.component.ts:39</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -148,7 +154,7 @@
 					<div class="tsd-signature tsd-kind-icon">iterations<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[0]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/loader/loader.component.ts:41</li>
+							<li>Defined in fields/loader/loader.component.ts:51</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -163,7 +169,7 @@
 					<div class="tsd-signature tsd-kind-icon">look<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/loader/loader.component.ts:26</li>
+							<li>Defined in fields/loader/loader.component.ts:29</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -178,13 +184,30 @@
 					<div class="tsd-signature tsd-kind-icon">rect<wbr>Classes<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/loader/loader.component.ts:47</li>
+							<li>Defined in fields/loader/loader.component.ts:57</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>An array, containing all loader rectangle classes
 							This array is empty for &#39;skeleton&#39; and &#39;progressbar&#39; loaders</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="width" class="tsd-anchor"></a>
+					<h3>width</h3>
+					<div class="tsd-signature tsd-kind-icon">width<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in fields/loader/loader.component.ts:46</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Sets the width of the loader
+								Currently used for solid-block loader
+							If width and height aren&#39;t set, solid-block loader expands to 100% width and height of parent</p>
 						</div>
 					</div>
 				</section>
@@ -201,7 +224,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in fields/loader/loader.component.ts:75</li>
+									<li>Defined in fields/loader/loader.component.ts:85</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -223,7 +246,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in fields/loader/loader.component.ts:49</li>
+									<li>Defined in fields/loader/loader.component.ts:59</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -261,6 +284,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="sfloadercomponent.html#rectclasses" class="tsd-kind-icon">rect<wbr>Classes</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="sfloadercomponent.html#width" class="tsd-kind-icon">width</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="sfloadercomponent.html#generatecssclasslist" class="tsd-kind-icon">generate<wbr>Css<wbr>Class<wbr>List</a>
