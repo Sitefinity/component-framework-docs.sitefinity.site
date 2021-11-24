@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>ListBuilderItem | Sitefinity Component framework API documentation</title>
+	<title>TreeNodeModel | Sitefinity Component framework API documentation</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -54,10 +54,10 @@
 					<a href="../index.html">Globals</a>
 				</li>
 				<li>
-					<a href="listbuilderitem.html">ListBuilderItem</a>
+					<a href="treenodemodel.html">TreeNodeModel</a>
 				</li>
 			</ul>
-			<h1>Interface ListBuilderItem</h1>
+			<h1>Class TreeNodeModel</h1>
 		</div>
 	</div>
 </header>
@@ -68,7 +68,7 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">ListBuilderItem</span>
+						<span class="target">TreeNodeModel</span>
 					</li>
 				</ul>
 			</section>
@@ -77,47 +77,114 @@
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="treenodemodel.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="listbuilderitem.html#isvalid" class="tsd-kind-icon">is<wbr>Valid</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="listbuilderitem.html#show" class="tsd-kind-icon">show</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="listbuilderitem.html#value" class="tsd-kind-icon">value</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="treenodemodel.html#children" class="tsd-kind-icon">children</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="treenodemodel.html#isselected" class="tsd-kind-icon">is<wbr>Selected</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="treenodemodel.html#addpath" class="tsd-kind-icon">add<wbr>Path</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Tree<wbr>Node<wbr>Model<span class="tsd-signature-symbol">(</span>isSelected<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="treenodemodel.html" class="tsd-signature-type">TreeNodeModel</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in fields/tree/tree.component.ts:1029</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> isSelected: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;false</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="treenodemodel.html" class="tsd-signature-type">TreeNodeModel</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="isvalid" class="tsd-anchor"></a>
-					<h3>is<wbr>Valid</h3>
-					<div class="tsd-signature tsd-kind-icon">is<wbr>Valid<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="children" class="tsd-anchor"></a>
+					<h3>children</h3>
+					<div class="tsd-signature tsd-kind-icon">children<span class="tsd-signature-symbol">:</span> <a href="treenodemodel.html" class="tsd-signature-type">TreeNodeModel</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;new Array&lt;TreeNodeModel&gt;()</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/list-builder/list-builder.component.ts:230</li>
+							<li>Defined in fields/tree/tree.component.ts:1029</li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="show" class="tsd-anchor"></a>
-					<h3>show</h3>
-					<div class="tsd-signature tsd-kind-icon">show<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="isselected" class="tsd-anchor"></a>
+					<h3>is<wbr>Selected</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Selected<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/list-builder/list-builder.component.ts:228</li>
+							<li>Defined in fields/tree/tree.component.ts:1031</li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="value" class="tsd-anchor"></a>
-					<h3>value</h3>
-					<div class="tsd-signature tsd-kind-icon">value<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in fields/list-builder/list-builder.component.ts:229</li>
-						</ul>
-					</aside>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="addpath" class="tsd-anchor"></a>
+					<h3>add<wbr>Path</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">add<wbr>Path<span class="tsd-signature-symbol">(</span>path<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in fields/tree/tree.component.ts:1042</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Adds an path.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>memberof</dt>
+									<dd><p>TreeNodeModel</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>path: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>array of path segments ordered from root to child.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							<p>void</p>
+						</li>
+					</ul>
 				</section>
 			</section>
 		</div>
@@ -133,17 +200,20 @@
 				<ul class="before-current">
 				</ul>
 				<ul class="current">
-					<li class="current tsd-kind-interface">
-						<a href="listbuilderitem.html" class="tsd-kind-icon">List<wbr>Builder<wbr>Item</a>
+					<li class="current tsd-kind-class">
+						<a href="treenodemodel.html" class="tsd-kind-icon">Tree<wbr>Node<wbr>Model</a>
 						<ul>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="listbuilderitem.html#isvalid" class="tsd-kind-icon">is<wbr>Valid</a>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="treenodemodel.html#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="listbuilderitem.html#show" class="tsd-kind-icon">show</a>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="treenodemodel.html#children" class="tsd-kind-icon">children</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="listbuilderitem.html#value" class="tsd-kind-icon">value</a>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="treenodemodel.html#isselected" class="tsd-kind-icon">is<wbr>Selected</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="treenodemodel.html#addpath" class="tsd-kind-icon">add<wbr>Path</a>
 							</li>
 						</ul>
 					</li>
