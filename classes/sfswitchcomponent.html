@@ -85,6 +85,12 @@
 					</li>
 				</ul>
 			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><span class="tsd-signature-type">OnInit</span></li>
+				</ul>
+			</section>
 			<section class="tsd-panel-group tsd-index-group">
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
@@ -92,10 +98,12 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfswitchcomponent.html#cssclasslist" class="tsd-kind-icon">css<wbr>Class<wbr>List</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfswitchcomponent.html#disabled" class="tsd-kind-icon">disabled</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfswitchcomponent.html#id" class="tsd-kind-icon">id</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfswitchcomponent.html#isloading" class="tsd-kind-icon">is<wbr>Loading</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfswitchcomponent.html#ison" class="tsd-kind-icon">is<wbr>On</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfswitchcomponent.html#look" class="tsd-kind-icon">look</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfswitchcomponent.html#offtext" class="tsd-kind-icon">off<wbr>Text</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfswitchcomponent.html#ontext" class="tsd-kind-icon">on<wbr>Text</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sfswitchcomponent.html#selectionchange" class="tsd-kind-icon">selection<wbr>Change</a></li>
@@ -105,9 +113,11 @@
 						<section class="tsd-index-section ">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="sfswitchcomponent.html#generateswitchcssclass" class="tsd-kind-icon">generate<wbr>Switch<wbr>Css<wbr>Class</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="sfswitchcomponent.html#getonoroffbuttoniconname" class="tsd-kind-icon">get<wbr>OnOr<wbr>Off<wbr>Button<wbr>Icon<wbr>Name</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="sfswitchcomponent.html#getonoroffbuttonlook" class="tsd-kind-icon">get<wbr>OnOr<wbr>Off<wbr>Button<wbr>Look</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="sfswitchcomponent.html#getonorofftext" class="tsd-kind-icon">get<wbr>OnOr<wbr>Off<wbr>Text</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="sfswitchcomponent.html#ngoninit" class="tsd-kind-icon">ng<wbr>OnInit</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="sfswitchcomponent.html#onselectionchanged" class="tsd-kind-icon">on<wbr>Selection<wbr>Changed</a></li>
 							</ul>
 						</section>
@@ -116,6 +126,21 @@
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="cssclasslist" class="tsd-anchor"></a>
+					<h3>css<wbr>Class<wbr>List</h3>
+					<div class="tsd-signature tsd-kind-icon">css<wbr>Class<wbr>List<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in fields/switch/switch.component.ts:64</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Css class list</p>
+						</div>
+					</div>
+				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="disabled" class="tsd-anchor"></a>
 					<h3>disabled</h3>
@@ -173,6 +198,21 @@
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>Whether the switch is ON</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="look" class="tsd-anchor"></a>
+					<h3>look</h3>
+					<div class="tsd-signature tsd-kind-icon">look<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in fields/switch/switch.component.ts:59</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Css modifier for the switch</p>
 						</div>
 					</div>
 				</section>
@@ -240,6 +280,28 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Methods</h2>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="generateswitchcssclass" class="tsd-anchor"></a>
+					<h3>generate<wbr>Switch<wbr>Css<wbr>Class</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">generate<wbr>Switch<wbr>Css<wbr>Class<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in fields/switch/switch.component.ts:112</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Generates the css modifiers of the wrapper</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
 					<a name="getonoroffbuttoniconname" class="tsd-anchor"></a>
 					<h3>get<wbr>OnOr<wbr>Off<wbr>Button<wbr>Icon<wbr>Name</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -249,7 +311,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in fields/switch/switch.component.ts:78</li>
+									<li>Defined in fields/switch/switch.component.ts:92</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -271,7 +333,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in fields/switch/switch.component.ts:85</li>
+									<li>Defined in fields/switch/switch.component.ts:99</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -293,7 +355,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in fields/switch/switch.component.ts:71</li>
+									<li>Defined in fields/switch/switch.component.ts:85</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -302,6 +364,23 @@
 								</div>
 							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="ngoninit" class="tsd-anchor"></a>
+					<h3>ng<wbr>OnInit</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">ng<wbr>OnInit<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in fields/switch/switch.component.ts:66</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -315,7 +394,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in fields/switch/switch.component.ts:59</li>
+									<li>Defined in fields/switch/switch.component.ts:73</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -351,6 +430,9 @@
 						<a href="sfswitchcomponent.html" class="tsd-kind-icon">Sf<wbr>Switch<wbr>Component</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="sfswitchcomponent.html#cssclasslist" class="tsd-kind-icon">css<wbr>Class<wbr>List</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="sfswitchcomponent.html#disabled" class="tsd-kind-icon">disabled</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
@@ -361,6 +443,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="sfswitchcomponent.html#ison" class="tsd-kind-icon">is<wbr>On</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="sfswitchcomponent.html#look" class="tsd-kind-icon">look</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="sfswitchcomponent.html#offtext" class="tsd-kind-icon">off<wbr>Text</a>
@@ -375,6 +460,9 @@
 								<a href="sfswitchcomponent.html#showtext" class="tsd-kind-icon">show<wbr>Text</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="sfswitchcomponent.html#generateswitchcssclass" class="tsd-kind-icon">generate<wbr>Switch<wbr>Css<wbr>Class</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="sfswitchcomponent.html#getonoroffbuttoniconname" class="tsd-kind-icon">get<wbr>OnOr<wbr>Off<wbr>Button<wbr>Icon<wbr>Name</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
@@ -382,6 +470,9 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="sfswitchcomponent.html#getonorofftext" class="tsd-kind-icon">get<wbr>OnOr<wbr>Off<wbr>Text</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="sfswitchcomponent.html#ngoninit" class="tsd-kind-icon">ng<wbr>OnInit</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="sfswitchcomponent.html#onselectionchanged" class="tsd-kind-icon">on<wbr>Selection<wbr>Changed</a>
