@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>TreeNodeModel | Sitefinity Component framework API documentation</title>
+	<title>SfTooltipComponent | Sitefinity Component framework API documentation</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -54,21 +54,34 @@
 					<a href="../index.html">Globals</a>
 				</li>
 				<li>
-					<a href="treenodemodel.html">TreeNodeModel</a>
+					<a href="sftooltipcomponent.html">SfTooltipComponent</a>
 				</li>
 			</ul>
-			<h1>Class TreeNodeModel</h1>
+			<h1>Class SfTooltipComponent</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<a href="#api-reference-for-sftabscomponent" id="api-reference-for-sftabscomponent" style="color: inherit; text-decoration: none;">
+							<h2>API reference for SfTabsComponent</h2>
+						</a>
+						<p><code>import {SfTooltipModule} from &quot;@progress/sitefinity-component-framework&quot;;</code></p>
+						<hr>
+						<p><strong>selector</strong>: <code>sf-tooltip</code>
+						<strong>description</strong>: Represents a tooltip component with two modes - link and icon</p>
+					</div>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">TreeNodeModel</span>
+						<span class="target">SfTooltipComponent</span>
 					</li>
 				</ul>
 			</section>
@@ -77,114 +90,178 @@
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
-							<h3>Constructors</h3>
-							<ul class="tsd-index-list">
-								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="treenodemodel.html#constructor" class="tsd-kind-icon">constructor</a></li>
-							</ul>
-						</section>
-						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="treenodemodel.html#children" class="tsd-kind-icon">children</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="treenodemodel.html#isselected" class="tsd-kind-icon">is<wbr>Selected</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sftooltipcomponent.html#istooltipvisible" class="tsd-kind-icon">is<wbr>Tooltip<wbr>Visible</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sftooltipcomponent.html#onclick" class="tsd-kind-icon">on<wbr>Click</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sftooltipcomponent.html#onfocusout" class="tsd-kind-icon">on<wbr>Focus<wbr>Out</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sftooltipcomponent.html#shouldcloseoncontentclick" class="tsd-kind-icon">should<wbr>Close<wbr>OnContent<wbr>Click</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="treenodemodel.html#addpath" class="tsd-kind-icon">add<wbr>Path</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="sftooltipcomponent.html#onclickhandler" class="tsd-kind-icon">on<wbr>Click<wbr>Handler</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="sftooltipcomponent.html#onfocusouthandler" class="tsd-kind-icon">on<wbr>Focus<wbr>Out<wbr>Handler</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Object literals</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-object-literal tsd-parent-kind-class"><a href="sftooltipcomponent.html#tooltipconfig" class="tsd-kind-icon">tooltip<wbr>Config</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Constructors</h2>
-				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
-					<a name="constructor" class="tsd-anchor"></a>
-					<h3>constructor</h3>
-					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Tree<wbr>Node<wbr>Model<span class="tsd-signature-symbol">(</span>isSelected<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="treenodemodel.html" class="tsd-signature-type">TreeNodeModel</a></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in fields/tree/tree.component.ts:1031</li>
-								</ul>
-							</aside>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> isSelected: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;false</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="treenodemodel.html" class="tsd-signature-type">TreeNodeModel</a></h4>
-						</li>
-					</ul>
-				</section>
-			</section>
-			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
-					<a name="children" class="tsd-anchor"></a>
-					<h3>children</h3>
-					<div class="tsd-signature tsd-kind-icon">children<span class="tsd-signature-symbol">:</span> <a href="treenodemodel.html" class="tsd-signature-type">TreeNodeModel</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;new Array&lt;TreeNodeModel&gt;()</span></div>
+					<a name="istooltipvisible" class="tsd-anchor"></a>
+					<h3>is<wbr>Tooltip<wbr>Visible</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Tooltip<wbr>Visible<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;false</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/tree/tree.component.ts:1031</li>
+							<li>Defined in fields/tooltip/tooltip.component.ts:26</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Whether the tooltip is visible</p>
+						</div>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
-					<a name="isselected" class="tsd-anchor"></a>
-					<h3>is<wbr>Selected</h3>
-					<div class="tsd-signature tsd-kind-icon">is<wbr>Selected<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<a name="onclick" class="tsd-anchor"></a>
+					<h3>on<wbr>Click</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Click<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">EventEmitter</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;new EventEmitter&lt;boolean&gt;()</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/tree/tree.component.ts:1033</li>
+							<li>Defined in fields/tooltip/tooltip.component.ts:36</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Emitted when the tooltip link or icon is clicked</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onfocusout" class="tsd-anchor"></a>
+					<h3>on<wbr>Focus<wbr>Out</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Focus<wbr>Out<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">EventEmitter</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;new EventEmitter&lt;boolean&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in fields/tooltip/tooltip.component.ts:41</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Emitted when focus out is triggered</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="shouldcloseoncontentclick" class="tsd-anchor"></a>
+					<h3>should<wbr>Close<wbr>OnContent<wbr>Click</h3>
+					<div class="tsd-signature tsd-kind-icon">should<wbr>Close<wbr>OnContent<wbr>Click<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;false</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in fields/tooltip/tooltip.component.ts:31</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Whether the tooltip should be closed on click</p>
+						</div>
+					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Methods</h2>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-					<a name="addpath" class="tsd-anchor"></a>
-					<h3>add<wbr>Path</h3>
+					<a name="onclickhandler" class="tsd-anchor"></a>
+					<h3>on<wbr>Click<wbr>Handler</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">add<wbr>Path<span class="tsd-signature-symbol">(</span>path<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">on<wbr>Click<wbr>Handler<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in fields/tree/tree.component.ts:1044</li>
+									<li>Defined in fields/tooltip/tooltip.component.ts:47</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Adds an path.</p>
+									<p>Toggles the visibility of the tooltip content
+									Emits onClick event</p>
 								</div>
-								<dl class="tsd-comment-tags">
-									<dt>memberof</dt>
-									<dd><p>TreeNodeModel</p>
-									</dd>
-								</dl>
 							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>path: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>array of path segments ordered from root to child.</p>
-									</div>
-								</li>
-							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-							<p>void</p>
 						</li>
 					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="onfocusouthandler" class="tsd-anchor"></a>
+					<h3>on<wbr>Focus<wbr>Out<wbr>Handler</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">on<wbr>Focus<wbr>Out<wbr>Handler<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in fields/tooltip/tooltip.component.ts:56</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Closes the tooltip
+									Edmits onFocusOut event</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Object literals</h2>
+				<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-class">
+					<a name="tooltipconfig" class="tsd-anchor"></a>
+					<h3>tooltip<wbr>Config</h3>
+					<div class="tsd-signature tsd-kind-icon">tooltip<wbr>Config<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in fields/tooltip/tooltip.component.ts:18</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Settings for the tooltip component</p>
+						</div>
+					</div>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="tooltipconfig.isvisible" class="tsd-anchor"></a>
+						<h3>is<wbr>Visible</h3>
+						<div class="tsd-signature tsd-kind-icon">is<wbr>Visible<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">true</span><span class="tsd-signature-symbol"> =&nbsp;true</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in fields/tooltip/tooltip.component.ts:19</li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="tooltipconfig.look" class="tsd-anchor"></a>
+						<h3>look</h3>
+						<div class="tsd-signature tsd-kind-icon">look<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;tooltip down-left&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in fields/tooltip/tooltip.component.ts:20</li>
+							</ul>
+						</aside>
+					</section>
 				</section>
 			</section>
 		</div>
@@ -201,19 +278,28 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-class">
-						<a href="treenodemodel.html" class="tsd-kind-icon">Tree<wbr>Node<wbr>Model</a>
+						<a href="sftooltipcomponent.html" class="tsd-kind-icon">Sf<wbr>Tooltip<wbr>Component</a>
 						<ul>
-							<li class=" tsd-kind-constructor tsd-parent-kind-class">
-								<a href="treenodemodel.html#constructor" class="tsd-kind-icon">constructor</a>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="sftooltipcomponent.html#istooltipvisible" class="tsd-kind-icon">is<wbr>Tooltip<wbr>Visible</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
-								<a href="treenodemodel.html#children" class="tsd-kind-icon">children</a>
+								<a href="sftooltipcomponent.html#onclick" class="tsd-kind-icon">on<wbr>Click</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
-								<a href="treenodemodel.html#isselected" class="tsd-kind-icon">is<wbr>Selected</a>
+								<a href="sftooltipcomponent.html#onfocusout" class="tsd-kind-icon">on<wbr>Focus<wbr>Out</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="sftooltipcomponent.html#shouldcloseoncontentclick" class="tsd-kind-icon">should<wbr>Close<wbr>OnContent<wbr>Click</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
-								<a href="treenodemodel.html#addpath" class="tsd-kind-icon">add<wbr>Path</a>
+								<a href="sftooltipcomponent.html#onclickhandler" class="tsd-kind-icon">on<wbr>Click<wbr>Handler</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="sftooltipcomponent.html#onfocusouthandler" class="tsd-kind-icon">on<wbr>Focus<wbr>Out<wbr>Handler</a>
+							</li>
+							<li class=" tsd-kind-object-literal tsd-parent-kind-class">
+								<a href="sftooltipcomponent.html#tooltipconfig" class="tsd-kind-icon">tooltip<wbr>Config</a>
 							</li>
 						</ul>
 					</li>

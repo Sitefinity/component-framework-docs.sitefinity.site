@@ -114,6 +114,7 @@
 								<li class="tsd-kind-class"><a href="classes/sfradiogroupcomponent.html" class="tsd-kind-icon">Sf<wbr>Radio<wbr>Group<wbr>Component</a></li>
 								<li class="tsd-kind-class"><a href="classes/sfrxbase.html" class="tsd-kind-icon">Sf<wbr>RxBase</a></li>
 								<li class="tsd-kind-class"><a href="classes/sfsafepipe.html" class="tsd-kind-icon">Sf<wbr>Safe<wbr>Pipe</a></li>
+								<li class="tsd-kind-class"><a href="classes/sfsanitizerpipe.html" class="tsd-kind-icon">Sf<wbr>Sanitizer<wbr>Pipe</a></li>
 								<li class="tsd-kind-class"><a href="classes/sfscrolldetectionservice.html" class="tsd-kind-icon">Sf<wbr>Scroll<wbr>Detection<wbr>Service</a></li>
 								<li class="tsd-kind-class"><a href="classes/sfscrollservice.html" class="tsd-kind-icon">Sf<wbr>Scroll<wbr>Service</a></li>
 								<li class="tsd-kind-class"><a href="classes/sfsearchcomponent.html" class="tsd-kind-icon">Sf<wbr>Search<wbr>Component</a></li>
@@ -125,6 +126,8 @@
 								<li class="tsd-kind-class"><a href="classes/sftabscomponent.html" class="tsd-kind-icon">Sf<wbr>Tabs<wbr>Component</a></li>
 								<li class="tsd-kind-class"><a href="classes/sftabsmodule.html" class="tsd-kind-icon">Sf<wbr>Tabs<wbr>Module</a></li>
 								<li class="tsd-kind-class"><a href="classes/sftextdirectiondirective.html" class="tsd-kind-icon">Sf<wbr>Text<wbr>Direction<wbr>Directive</a></li>
+								<li class="tsd-kind-class"><a href="classes/sftooltipcomponent.html" class="tsd-kind-icon">Sf<wbr>Tooltip<wbr>Component</a></li>
+								<li class="tsd-kind-class"><a href="classes/sftooltipmodule.html" class="tsd-kind-icon">Sf<wbr>Tooltip<wbr>Module</a></li>
 								<li class="tsd-kind-class"><a href="classes/sftrackfocusdirective.html" class="tsd-kind-icon">Sf<wbr>Track<wbr>Focus<wbr>Directive</a></li>
 								<li class="tsd-kind-class"><a href="classes/sftreecomponent.html" class="tsd-kind-icon">Sf<wbr>Tree<wbr>Component</a></li>
 								<li class="tsd-kind-class"><a href="classes/sftreemodule.html" class="tsd-kind-icon">Sf<wbr>Tree<wbr>Module</a></li>
@@ -160,6 +163,7 @@
 								<li class="tsd-kind-interface"><a href="interfaces/templatedata.html" class="tsd-kind-icon">Template<wbr>Data</a></li>
 								<li class="tsd-kind-interface"><a href="interfaces/textsection.html" class="tsd-kind-icon">Text<wbr>Section</a></li>
 								<li class="tsd-kind-interface"><a href="interfaces/tokendata.html" class="tsd-kind-icon">Token<wbr>Data</a></li>
+								<li class="tsd-kind-interface"><a href="interfaces/tooltipconfig.html" class="tsd-kind-icon">Tooltip<wbr>Config</a></li>
 								<li class="tsd-kind-interface"><a href="interfaces/treeconfigbase.html" class="tsd-kind-icon">Tree<wbr>Config<wbr>Base</a></li>
 								<li class="tsd-kind-interface"><a href="interfaces/virtualizationoptions.html" class="tsd-kind-icon">Virtualization<wbr>Options</a></li>
 							</ul>
@@ -276,7 +280,7 @@
 					<div class="tsd-signature tsd-kind-icon">Data<wbr>Properties<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/tree/tree.component.ts:1026</li>
+							<li>Defined in fields/tree/tree.component.ts:1021</li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -314,7 +318,7 @@
 					<div class="tsd-signature tsd-kind-icon">Tree<wbr>Data<wbr>Properties<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/tree/tree.component.ts:1030</li>
+							<li>Defined in fields/tree/tree.component.ts:1025</li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -572,10 +576,10 @@
 				<section class="tsd-panel tsd-member tsd-kind-variable tsd-is-not-exported">
 					<a name="pipes" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagConst">Const</span> PIPES</h3>
-					<div class="tsd-signature tsd-kind-icon">PIPES<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><a href="classes/sfsafepipe.html" class="tsd-signature-type">SfSafePipe</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfcapitalizepipe.html" class="tsd-signature-type">SfCapitalizePipe</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfhtmlescapepipe.html" class="tsd-signature-type">SfHtmlEscapePipe</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfbreadcrumbpipe.html" class="tsd-signature-type">SfBreadcrumbPipe</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[SfSafePipe,SfCapitalizePipe,SfBolderTextPipe,SfHtmlEscapePipe,SfBreadcrumbPipe,]</span></div>
+					<div class="tsd-signature tsd-kind-icon">PIPES<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><a href="classes/sfsafepipe.html" class="tsd-signature-type">SfSafePipe</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfcapitalizepipe.html" class="tsd-signature-type">SfCapitalizePipe</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfhtmlescapepipe.html" class="tsd-signature-type">SfHtmlEscapePipe</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfbreadcrumbpipe.html" class="tsd-signature-type">SfBreadcrumbPipe</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfsanitizerpipe.html" class="tsd-signature-type">SfSanitizerPipe</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[SfSafePipe,SfCapitalizePipe,SfBolderTextPipe,SfHtmlEscapePipe,SfBreadcrumbPipe,SfSanitizerPipe]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in common/sitefinity-common.module.ts:16</li>
+							<li>Defined in common/sitefinity-common.module.ts:17</li>
 						</ul>
 					</aside>
 				</section>
@@ -672,10 +676,10 @@
 				<section class="tsd-panel tsd-member tsd-kind-variable tsd-is-not-exported">
 					<a name="sitefinity_common" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagConst">Const</span> SITEFINITY_<wbr>COMMON</h3>
-					<div class="tsd-signature tsd-kind-icon">SITEFINITY_<wbr>COMMON<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><a href="classes/sftrackfocusdirective.html" class="tsd-signature-type">SfTrackFocusDirective</a><span class="tsd-signature-symbol"> | </span><a href="classes/sftextdirectiondirective.html" class="tsd-signature-type">SfTextDirectionDirective</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfunitdirective.html" class="tsd-signature-type">SfUnitDirective</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfmoveinviewportdirective.html" class="tsd-signature-type">SfMoveInViewportDirective</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfcarretpositiondirective.html" class="tsd-signature-type">SfCarretPositionDirective</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfsafepipe.html" class="tsd-signature-type">SfSafePipe</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfcapitalizepipe.html" class="tsd-signature-type">SfCapitalizePipe</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfhtmlescapepipe.html" class="tsd-signature-type">SfHtmlEscapePipe</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfbreadcrumbpipe.html" class="tsd-signature-type">SfBreadcrumbPipe</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[SfTrackFocusDirective,SfTextDirectionDirective,SfUnitDirective,SfMoveInViewportDirective,SfCarretPositionDirective,...PIPES]</span></div>
+					<div class="tsd-signature tsd-kind-icon">SITEFINITY_<wbr>COMMON<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><a href="classes/sftrackfocusdirective.html" class="tsd-signature-type">SfTrackFocusDirective</a><span class="tsd-signature-symbol"> | </span><a href="classes/sftextdirectiondirective.html" class="tsd-signature-type">SfTextDirectionDirective</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfunitdirective.html" class="tsd-signature-type">SfUnitDirective</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfmoveinviewportdirective.html" class="tsd-signature-type">SfMoveInViewportDirective</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfcarretpositiondirective.html" class="tsd-signature-type">SfCarretPositionDirective</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfsafepipe.html" class="tsd-signature-type">SfSafePipe</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfcapitalizepipe.html" class="tsd-signature-type">SfCapitalizePipe</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfhtmlescapepipe.html" class="tsd-signature-type">SfHtmlEscapePipe</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfbreadcrumbpipe.html" class="tsd-signature-type">SfBreadcrumbPipe</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfsanitizerpipe.html" class="tsd-signature-type">SfSanitizerPipe</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[SfTrackFocusDirective,SfTextDirectionDirective,SfUnitDirective,SfMoveInViewportDirective,SfCarretPositionDirective,...PIPES]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in common/sitefinity-common.module.ts:24</li>
+							<li>Defined in common/sitefinity-common.module.ts:26</li>
 						</ul>
 					</aside>
 				</section>
@@ -685,7 +689,7 @@
 					<div class="tsd-signature tsd-kind-icon">SITEFINITY_<wbr>SERVICES_<wbr>COMMON<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><a href="classes/sfscrollservice.html" class="tsd-signature-type">SfScrollService</a><span class="tsd-signature-symbol"> | </span><a href="classes/sfscrolldetectionservice.html" class="tsd-signature-type">SfScrollDetectionService</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[SfScrollService,SfScrollDetectionService]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in common/sitefinity-common.module.ts:33</li>
+							<li>Defined in common/sitefinity-common.module.ts:35</li>
 						</ul>
 					</aside>
 				</section>
@@ -1698,6 +1702,9 @@
 						<a href="classes/sfsafepipe.html" class="tsd-kind-icon">Sf<wbr>Safe<wbr>Pipe</a>
 					</li>
 					<li class=" tsd-kind-class">
+						<a href="classes/sfsanitizerpipe.html" class="tsd-kind-icon">Sf<wbr>Sanitizer<wbr>Pipe</a>
+					</li>
+					<li class=" tsd-kind-class">
 						<a href="classes/sfscrolldetectionservice.html" class="tsd-kind-icon">Sf<wbr>Scroll<wbr>Detection<wbr>Service</a>
 					</li>
 					<li class=" tsd-kind-class">
@@ -1729,6 +1736,12 @@
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="classes/sftextdirectiondirective.html" class="tsd-kind-icon">Sf<wbr>Text<wbr>Direction<wbr>Directive</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/sftooltipcomponent.html" class="tsd-kind-icon">Sf<wbr>Tooltip<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/sftooltipmodule.html" class="tsd-kind-icon">Sf<wbr>Tooltip<wbr>Module</a>
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="classes/sftrackfocusdirective.html" class="tsd-kind-icon">Sf<wbr>Track<wbr>Focus<wbr>Directive</a>
@@ -1819,6 +1832,9 @@
 					</li>
 					<li class=" tsd-kind-interface">
 						<a href="interfaces/tokendata.html" class="tsd-kind-icon">Token<wbr>Data</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/tooltipconfig.html" class="tsd-kind-icon">Tooltip<wbr>Config</a>
 					</li>
 					<li class=" tsd-kind-interface">
 						<a href="interfaces/treeconfigbase.html" class="tsd-kind-icon">Tree<wbr>Config<wbr>Base</a>

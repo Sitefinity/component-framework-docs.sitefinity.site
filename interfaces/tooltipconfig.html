@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>ExpandedNodesChangedEvent | Sitefinity Component framework API documentation</title>
+	<title>TooltipConfig | Sitefinity Component framework API documentation</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -54,21 +54,28 @@
 					<a href="../index.html">Globals</a>
 				</li>
 				<li>
-					<a href="expandednodeschangedevent.html">ExpandedNodesChangedEvent</a>
+					<a href="tooltipconfig.html">TooltipConfig</a>
 				</li>
 			</ul>
-			<h1>Interface ExpandedNodesChangedEvent</h1>
+			<h1>Interface TooltipConfig</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Configuration for the tooltip component</p>
+					</div>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">ExpandedNodesChangedEvent</span>
+						<span class="target">TooltipConfig</span>
 					</li>
 				</ul>
 			</section>
@@ -79,8 +86,14 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="expandednodeschangedevent.html#event" class="tsd-kind-icon">event</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="expandednodeschangedevent.html#expandednodeids" class="tsd-kind-icon">expanded<wbr>Node<wbr>Ids</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="tooltipconfig.html#arialabel" class="tsd-kind-icon">aria<wbr>Label</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="tooltipconfig.html#caption" class="tsd-kind-icon">caption</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="tooltipconfig.html#description" class="tsd-kind-icon">description</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="tooltipconfig.html#islink" class="tsd-kind-icon">is<wbr>Link</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="tooltipconfig.html#isvisible" class="tsd-kind-icon">is<wbr>Visible</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="tooltipconfig.html#linktext" class="tsd-kind-icon">link<wbr>Text</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="tooltipconfig.html#look" class="tsd-kind-icon">look</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="tooltipconfig.html#tooltip" class="tsd-kind-icon">tooltip</a></li>
 							</ul>
 						</section>
 					</div>
@@ -89,24 +102,124 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="event" class="tsd-anchor"></a>
-					<h3>event</h3>
-					<div class="tsd-signature tsd-kind-icon">event<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<a name="arialabel" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> aria<wbr>Label</h3>
+					<div class="tsd-signature tsd-kind-icon">aria<wbr>Label<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/tree/tree.component.ts:1017</li>
+							<li>Defined in fields/tooltip/tooltip.component.ts:82</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>the aria-label of the content</p>
+						</div>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="expandednodeids" class="tsd-anchor"></a>
-					<h3>expanded<wbr>Node<wbr>Ids</h3>
-					<div class="tsd-signature tsd-kind-icon">expanded<wbr>Node<wbr>Ids<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
+					<a name="caption" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> caption</h3>
+					<div class="tsd-signature tsd-kind-icon">caption<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in fields/tree/tree.component.ts:1018</li>
+							<li>Defined in fields/tooltip/tooltip.component.ts:73</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The h4 title of the tooltip</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="description" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> description</h3>
+					<div class="tsd-signature tsd-kind-icon">description<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in fields/tooltip/tooltip.component.ts:76</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The content of the tooltip</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="islink" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> is<wbr>Link</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Link<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in fields/tooltip/tooltip.component.ts:70</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>should the clickable element be rendered as a link, instead of an icon</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="isvisible" class="tsd-anchor"></a>
+					<h3>is<wbr>Visible</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Visible<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in fields/tooltip/tooltip.component.ts:67</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Is the tooltip visible or not</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="linktext" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> link<wbr>Text</h3>
+					<div class="tsd-signature tsd-kind-icon">link<wbr>Text<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in fields/tooltip/tooltip.component.ts:79</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The text of the link for isLink mode</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="look" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> look</h3>
+					<div class="tsd-signature tsd-kind-icon">look<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in fields/tooltip/tooltip.component.ts:88</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>CSS modifiers for the notification element</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="tooltip" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> tooltip</h3>
+					<div class="tsd-signature tsd-kind-icon">tooltip<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in fields/tooltip/tooltip.component.ts:85</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>the html title/tooltip of the content</p>
+						</div>
+					</div>
 				</section>
 			</section>
 		</div>
@@ -123,13 +236,31 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-interface">
-						<a href="expandednodeschangedevent.html" class="tsd-kind-icon">Expanded<wbr>Nodes<wbr>Changed<wbr>Event</a>
+						<a href="tooltipconfig.html" class="tsd-kind-icon">Tooltip<wbr>Config</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="expandednodeschangedevent.html#event" class="tsd-kind-icon">event</a>
+								<a href="tooltipconfig.html#arialabel" class="tsd-kind-icon">aria<wbr>Label</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="expandednodeschangedevent.html#expandednodeids" class="tsd-kind-icon">expanded<wbr>Node<wbr>Ids</a>
+								<a href="tooltipconfig.html#caption" class="tsd-kind-icon">caption</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="tooltipconfig.html#description" class="tsd-kind-icon">description</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="tooltipconfig.html#islink" class="tsd-kind-icon">is<wbr>Link</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="tooltipconfig.html#isvisible" class="tsd-kind-icon">is<wbr>Visible</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="tooltipconfig.html#linktext" class="tsd-kind-icon">link<wbr>Text</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="tooltipconfig.html#look" class="tsd-kind-icon">look</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="tooltipconfig.html#tooltip" class="tsd-kind-icon">tooltip</a>
 							</li>
 						</ul>
 					</li>
